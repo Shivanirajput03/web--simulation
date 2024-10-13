@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+    
+    .flex-card{
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 1.5rem;
+    }
+    /* progress-bar-section */
+    .container-fluid{
+        flex-direction: column;
+        margin-top: 53rem;
+
+    }
+    .what-we-do-text{
+        width: 100%;
+    }
+    .progressbar-container{
+        width: 100%;
+    }
+    .btn-sm{
+        margin: 2px;
+    }
+    /* why-choose-us */
+    .choose-container{
+        margin-top: 33rem;
+    }
+    /*idea-point-container  */
+    .idea-container{
+        flex-direction: column;
+        margin-top: 2rem;
+        /* height: 70vh; */
+    }
+    .idea-text-container{
+        width: 95%;
+    }
+    .idea-img-container{
+        width: 100%;
+    }
+    .idea-img-container img{
+        margin-top: 0px;
+    }
+    /* service-card-container */
+    .service-card-container{
+        flex-direction: column;
+        height: 100%;
+        /* margin-top: 100px;  */
+    }
+    .card{
+        margin: 15px; 
+    }
+    /* .Service-container{
+        position: relative;
+        top:50px;
+    } */
+    .newsletter-main-container{
+        flex-direction: column;
+        
+        
+        
+    }
+}
