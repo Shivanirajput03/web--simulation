@@ -5,7 +5,7 @@
         gap: 7px;
         margin-top: 1.5rem;
     }
-    /* progress-bar-section */
+    
     .container-fluid{
         flex-direction: column;
         margin-top: 53rem;
@@ -20,15 +20,15 @@
     .btn-sm{
         margin: 2px;
     }
-    /* why-choose-us */
+   
     .choose-container{
         margin-top: 33rem;
     }
-    /*idea-point-container  */
+    
     .idea-container{
         flex-direction: column;
         margin-top: 2rem;
-        /* height: 70vh; */
+        
     }
     .idea-text-container{
         width: 95%;
@@ -36,26 +36,56 @@
     .idea-img-container{
         width: 100%;
     }
-    .idea-img-container img{
+     .idea-img-container img{
         margin-top: 0px;
-    }
-    /* service-card-container */
-    .service-card-container{
+     } 
+         .service-card-container{
         flex-direction: column;
         height: 100%;
-        /* margin-top: 100px;  */
-    }
-    .card{
+    } 
+     .card{
         margin: 15px; 
     }
-    /* .Service-container{
-        position: relative;
-        top:50px;
-    } */
-    .newsletter-main-container{
+    .newsletter-container{
         flex-direction: column;
-        
-        
-        
+        padding: 1rem;
+       
     }
-}
+    .newsletter-label input{
+        height: 2rem;
+        width: 9rem;
+    }
+    .newsletter-label button{
+        height: 2rem;
+        width: 4.5rem;
+    }
+    .testimonal-section{
+        flex-direction: column;
+        margin-top: 10rem;
+        height: 80vh;
+    }
+    .section p{
+       padding-right: 4rem;
+      
+    }
+    .blog-card{
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+        margin-top: 70rem;
+    }
+    .map-container iframe{
+        width: 80%;
+    }
+    .form-container{
+        width: 40%;
+        padding: 1rem;
+    }
+    .form-container input{
+        width: 300px;
+    }
+    .form-container textarea{
+        width: 300px;
+    }
+    

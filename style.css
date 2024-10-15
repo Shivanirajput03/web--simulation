@@ -28,7 +28,7 @@ body{
 
 }
 .carousel-item img{
-    height:100vh;
+    height:80vh;
     
 }
 .btn-info{
@@ -80,7 +80,7 @@ span{
 
 /* what we do section */
 .container-fluid{
-    height: 40vw;
+    height: 35vw;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -151,28 +151,18 @@ span{
 }
 /* video-container */
 .video-container iframe{
-    
   width: 100%;  
 }
 /*newsletter-container  */
+
 .newsletter-container{
-    height: 20vw; 
-   margin-top: 4rem;
-   margin-left: 10rem;
-   
-  
-}
-.newslettter-main-container{
     height: 15vw;
-    width: 80%;
-    background-color: #f1eded;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-  
-   
+    align-items: center; 
+    /* background-color: #e7e3e3; */
+    
 }
-
 .newsletter-text h4{
     color: #0272CC;
     font-size: 2.3rem;
@@ -190,12 +180,102 @@ span{
     position: relative;
     right: 4px;
 }
+/* testimonal-section */
+.testimonal-section{
+    height: 25vw;
+   background-image: url('images/sunset-7898466_1280.jpg');
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section p{
+    /* width: 80%; */
+    text-align: center;
+   margin-left: 2rem;
+   color: #ffffff;
+}
+ /* .section i{
+    font-size: 3rem;
+    color: #0272CC;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background-color: #f4ecec;
+    position: relative;
+    left:33rem; 
+} */
+/* blog-card */
+.blog-card{
+    display: flex;
+    height: 47vw;
+    /* background-color: #0272CC; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+#card-img-top{
+    height: 180px;
+    width: 285px;
+    padding: 2px;
+}
+/* info-section */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    height: 43vw;
+    
+}
+.map-container{
+    width: 40%;
+    margin-top: 2rem;
+}
+.form-container{
+    width: 40%;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    gap: 1rem;
+
+}
+label{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 600;
+    color: #0272CC;
 
 
+}
+input{
+    height: 40px;
+    width: 450px;
+    
+    
+}
+textarea{
+    color: grey;
+    padding-right: 20px;
+}
 
+.form-container button{
+    height: 3rem;
+    width: 10rem;
+    background-color: #0272CC;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+}
+/* footer-section */
+footer{
+    height: 6vw;
+    background-color: rgb(29, 29, 29);
+    color: #ffffff;
 
-
-
+}
+footer p{
+    text-align: center;
+    padding-top: 1.5rem;
+    }
 
 
 
