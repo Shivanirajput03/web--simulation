@@ -22,7 +22,10 @@
     }
    
     .choose-container{
-        margin-top: 33rem;
+        margin-top: 40rem;
+    }
+    .Blog-container{
+        margin-top: 0rem;
     }
     
     .idea-container{
@@ -73,13 +76,16 @@
     }
     .main-container{
         flex-direction: column;
-        margin-top: 70rem;
+        margin-top: 2rem;
+    }
+    .Feature-container{
+        margin-top: 150vh;
     }
     .map-container iframe{
-        width: 80%;
+        width: 100vw;
     }
     .form-container{
-        width: 40%;
+        width: 100vw;
         padding: 1rem;
     }
     .form-container input{
@@ -88,4 +94,11 @@
     .form-container textarea{
         width: 300px;
     }
-    
+    footer{
+        height: 10vh;
+        margin-top: 290vw;
+    }
+    footer p{
+        padding-top:1rem;
+    }
+}
